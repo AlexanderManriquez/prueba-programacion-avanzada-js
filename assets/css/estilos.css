@@ -8,7 +8,6 @@ body {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
   padding: 100px;
 }
 
@@ -47,4 +46,19 @@ body {
 .modal-dialog{
     max-width: 85% !important;
 }
+
+/* Ajuste de imágenes en el contenedor 'Animales' */
+.animal-img {
+  height: 150px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Ajuste de la imagen en 'preview' */
+.preview-img {
+  height: 230px;
+  object-fit: cover;
+  width: 100%;
+}
+
 
