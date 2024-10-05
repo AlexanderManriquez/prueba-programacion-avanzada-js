@@ -1,4 +1,3 @@
-// animales.js
 export class Animales {
     constructor(nombre, edad, img, comentarios, sonido) {
       this._nombre = nombre;

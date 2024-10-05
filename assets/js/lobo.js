@@ -1,4 +1,3 @@
-// leon.js
 import { Animales } from './animales.js';
 
 export class Lobo extends Animales {
